@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(242, 235, 227);
+   
+}
+
+.header{
+    font-size: 24px;
+    color: white;
+    width: 100%;
+    background-color: rgb(31, 32, 32);
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    padding: 10px;
+}
+
+.navbar ul{
+    margin-right: 15px;
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.home-link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.fa-solid{
+    position: relative;
+    display: inline-block;
+}
+
+span{
+    position: absolute;
+    top: -25px;
+    left: 10px;
+    color: #ff0000eb;
+ }
+
+.category-section ul{
+    font-size: 32px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.category-section ul li{
+    border: 1px solid rgb(237, 6, 6);
+    padding: 20px;
+    margin: 20px auto;
+   
+}
+
+.category-section ul li:hover{
+    background-color: red;
+}
+
+#productContainer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns per row */
+    gap: 15px;
+    margin: 10px;
+}
+
+.cartContainer{
+    display: flex;
+   width: 60%;
+   margin-bottom: 20px;
+}
+
+.productCart{
+    width: 30%;
+    display: flex;
+   justify-content: center;
+   margin: 30px auto;
+
+}
+.cartItem{
+    border: 2px solid black;
+    width: 100%;
+    align-content: center;
+}
+
+.head{
+    background-color: cornflowerblue;
+    padding: 20px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.product-card{
+    border: 1px solid black;
+    margin: 15px;
+    padding: 20px;
+    width: 70%;
+    align-items: center;
+    align-content: center;
+}
+
+h2{
+    font-size: 32px;
+}
+p{
+    font-size: 28px;
+}
+h3{
+    font-size: 30px;
+}
+
+.product-card img{
+    width: 180px;
+    height: 180px;
+}
+
+.btn{
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+#cartTable {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+#cartTable th, #cartTable td {
+    border: 1px solid #b3b0b0;
+    padding: 8px;
+    text-align: center;
+    font-size: 28px;
+}
+
+#cartTable th {
+    background-color: #f2f2f2;
+    text-align: center;
+}

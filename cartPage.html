@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AddtoCart</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <script src="./app.js" defer></script> -->
+</head>
+<body>
+
+    <div class="header">
+        <h1>Shopperstop</h1>
+        <div class="navbar">
+           <ul>
+               <li><a href="./index.html" class="home-link">Home</a></li>
+               <li><i class="fa-solid fa-cart-shopping">
+                <span id="cart-notification">0</span>
+                </i></li>
+           </ul>
+       </div>
+   </div>
+
+    <div class="cartContainer">
+        <div class="productCart">
+            
+        <div class="cartItem">
+            <h2 class="head">My Cart</h2>
+            <p>Your Cart is empty.</p>
+            <div class="Sum">
+                <h3>Total</h3>
+                <h2 id="total">$ 0.00</h2>
+            </div>
+         </div>
+       </div>   
+    </div> 
+
+    <table id="cartTable" border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Image</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Quantity</th>
+                <th>Ratings</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Cart items will be populated here -->
+        </tbody>
+    </table>
+
+
+    <div>
+        <span>Total: $<span id="total-price">0.00</span></span>
+        <button id="apply-discount">Apply 10% Discount</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
