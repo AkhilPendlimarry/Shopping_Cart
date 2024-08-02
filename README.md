@@ -1,5 +1,5 @@
 Over View ::
-Online Shopping Cart - Is an simple Ecommerce web application featuring shopping cart. Here users can browse the products, can add them to the cart, View the contents on a separate page. This project demonstrates teh dynamic HTML rendering, local storage handling and some basic interacivity in JavaScript.
+Online Shopping Cart - Is an simple Ecommerce web application featuring shopping cart. Here users can browse the products, can add them to the cart, View the contents on a separate page. This project demonstrates the dynamic HTML rendering, local storage handling and some basic interacivity in JavaScript.
 
 Features ::
 1. Display a list of product cards
