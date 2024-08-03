@@ -34,30 +34,33 @@ h1{
 .fa-solid{
     position: relative;
     display: inline-block;
+    color: white;
 }
 
-span{
+#cart-count {
     position: absolute;
-    top: -25px;
-    left: 10px;
+    top: -20px;
+    background-color: black;
+    font-size: 30px;
+    font-weight: 900;
     color: #ff0000eb;
- }
+}
 
-.category-section ul{
+#category-section{
     font-size: 32px;
     display: flex;
     justify-content: space-evenly;
     list-style: none;
 }
 
-.category-section ul li{
+#category-section li{
     border: 1px solid rgb(237, 6, 6);
     padding: 20px;
     margin: 20px auto;
    
 }
 
-.category-section ul li:hover{
+#category-section li:hover{
     background-color: red;
 }
 
@@ -118,13 +121,14 @@ h3{
     height: 180px;
 }
 
-.btn{
+.product-card button{
     background-color: tomato;
     color: white;
     padding: 10px;
     font-size: 24px;
     border-style: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #cartTable {

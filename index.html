@@ -8,32 +8,36 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
-<body>
+<body> 
     <div class="header">
          <h1>Shopperstop</h1>
          <div class="navbar">
             <ul>
                 <li><a href="#" class="home-link">Home</a></li>
-                <li><i class="fa-solid fa-cart-shopping"><span id="cart-notification">0</span></i></li>
+                
+                <li><a href="cartPage.html">
+                    <i class="fa-solid fa-cart-shopping">
+                    <span id="cart-count">0</span>
+                </i></a></li>
             </ul>
         </div>
     </div>
 
-    <div class="category-section">
-        <ul>
-            <li>All</li>
-            <li>Beauty</li>
-            <li>Fashion</li>
-            <li>Electronics</li>
-            <li>Books</li>
-            <li>Home Appliances</li>
+    
+        <ul  id="category-section">
+            <li data-category="All">All</li>
+            <li data-category="Beauty">Beauty</li>
+            <li data-category="Fashion">Fashion</li>
+            <li data-category="Electronics">Electronics</li>
+            <li data-category="Books">Books</li>
+            <li data-category="Home Appliances">Home Appliances</li>
         </ul>
-    </div>
+ 
 
     <div id="productContainer">
-        <div class="product-card">
+        <!-- <div class="product-card">
 
-        </div>
+        </div> -->
 
     </div>
 

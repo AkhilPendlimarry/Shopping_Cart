@@ -1,4 +1,4 @@
-    const products = [
+const products = [
     {
         "Id": 1,
         "category": "Electronics",
@@ -174,7 +174,7 @@
         "category": "Beauty",
         "product_title": "Lipstick Set",
         "description": "Long-lasting lipstick set with vibrant colors",
-        "imageurl": "https://example.com/images/lipstick_set.jpg",
+        "imageurl": "assets/lipstick.avif",
         "price": "$ 30",
         "quantity": 1, 
         "ratings": 4.5
@@ -184,7 +184,7 @@
         "category": "Beauty",
         "product_title": "Perfume",
         "description": "Luxurious perfume with a long-lasting scent",
-        "imageurl": "https://example.com/images/perfume.jpg",
+        "imageurl": "assets/perfume.avif",
         "price": "$ 120",
         "quantity": 1, 
         "ratings": 4.7
@@ -194,7 +194,7 @@
         "category": "Kitchen",
         "product_title": "Air Fryer",
         "description": "Healthier cooking with an air fryer",
-        "imageurl": "https://example.com/images/air_fryer.jpg",
+        "imageurl": "assets/airfryer.avif",
         "price": "$ 89",
         "quantity": 1,
         "ratings": 4.4
@@ -204,7 +204,7 @@
         "category": "Kitchen",
         "product_title": "Toaster",
         "description": "4-slice toaster with browning control",
-        "imageurl": "https://example.com/images/toaster.jpg",
+        "imageurl": "assets/toaster.avif",
         "price": "$ 49",
         "quantity": 1, 
         "ratings": 4.3
@@ -234,7 +234,7 @@
         "category": "Electronics",
         "product_title": "Wireless Earbuds",
         "description": "Noise-cancelling wireless earbuds",
-        "imageurl": "https://example.com/images/wireless_earbuds.jpg",
+        "imageurl": "assets/boat131-1.png",
         "price": "$ 149",
         "quantity": 1, 
         "ratings": 4.5
@@ -244,7 +244,7 @@
         "category": "Electronics",
         "product_title": "Gaming Console",
         "description": "Next-gen gaming console with 4K support",
-        "imageurl": "https://example.com/images/gaming_console.jpg",
+        "imageurl": "assets/console.avif",
         "price": "$ 499",
         "quantity": 1, 
         "ratings": 4.8
@@ -254,7 +254,7 @@
         "category": "Home Appliances",
         "product_title": "Refrigerator",
         "description": "Energy-efficient refrigerator with freezer",
-        "imageurl": "https://example.com/images/refrigerator.jpg",
+        "imageurl": "assets/freezer.avif",
         "price": "$ 899",
         "quantity": 1, 
         "ratings": 4.7
@@ -264,7 +264,7 @@
         "category": "Home Appliances",
         "product_title": "Washing Machine",
         "description": "Front-load washing machine with smart features",
-        "imageurl": "https://example.com/images/washing_machine.jpg",
+        "imageurl": "assets/washing machine.avif",
         "price": "$ 599",
         "quantity": 1, 
         "ratings": 4.6
@@ -274,7 +274,7 @@
         "category": "Fashion",
         "product_title": "Handbag",
         "description": "Chic handbag with ample storage",
-        "imageurl": "https://example.com/images/handbag.jpg",
+        "imageurl": "assets/handbag.avif",
         "price": "$ 199",
         "quantity": 1, 
         "ratings": 4.5
@@ -284,7 +284,7 @@
         "category": "Fashion",
         "product_title": "Belt",
         "description": "Genuine leather belt with classic buckle",
-        "imageurl": "https://example.com/images/belt.jpg",
+        "imageurl": "assets/belt.avif",
         "price": "$ 50",
         "quantity": 1, 
         "ratings": 4.4
@@ -294,7 +294,7 @@
         "category": "Beauty",
         "product_title": "Hair Dryer",
         "description": "Professional hair dryer with multiple settings",
-        "imageurl": "https://example.com/images/hair_dryer.jpg",
+        "imageurl": "assets/hairdryer.avif",
         "price": "$ 79",
         "quantity": 1, 
         "ratings": 4.6
@@ -304,7 +304,7 @@
         "category": "Beauty",
         "product_title": "Makeup Kit",
         "description": "Complete makeup kit with brushes and palettes",
-        "imageurl": "https://example.com/images/makeup_kit.jpg",
+        "imageurl": "assets/makeup.avif",
         "price": "$ 120",
         "quantity": 1, 
         "ratings": 4.7
@@ -314,7 +314,7 @@
         "category": "Kitchen",
         "product_title": "Cutlery Set",
         "description": "Stainless steel cutlery set for 6",
-        "imageurl": "https://example.com/images/cutlery_set.jpg",
+        "imageurl": "assets/cutlery.avif",
         "price": "$ 49",
         "quantity": 1, 
         "ratings": 4.5
@@ -324,7 +324,7 @@
         "category": "Kitchen",
         "product_title": "Rice Cooker",
         "description": "Electric rice cooker with steaming basket",
-        "imageurl": "https://example.com/images/rice_cooker.jpg",
+        "imageurl": "assets/cooker.avif",
         "price": "$ 59",
         "quantity": 1, 
         "ratings": 4.4
@@ -354,7 +354,7 @@
         "category": "Electronics",
         "product_title": "4K TV",
         "description": "Ultra HD 4K TV with smart features",
-        "imageurl": "https://example.com/images/4k_tv.jpg",
+        "imageurl": "assets/tv.avif",
         "price": "$ 799",
         "quantity": 1, 
         "ratings": 4.7
@@ -364,7 +364,7 @@
         "category": "Electronics",
         "product_title": "Bluetooth Speaker",
         "description": "Portable Bluetooth speaker with deep bass",
-        "imageurl": "https://example.com/images/bluetooth_speaker.jpg",
+        "imageurl": "assets/blutooth.avif",
         "price": "$ 99",
         "quantity": 1, 
         "ratings": 4.4
@@ -374,7 +374,7 @@
         "category": "Home Appliances",
         "product_title": "Dishwasher",
         "description": "Quiet and efficient dishwasher with multiple settings",
-        "imageurl": "https://example.com/images/dishwasher.jpg",
+        "imageurl": "assets/dishwasher.avif",
         "price": "$ 699",
         "quantity": 1, 
         "ratings": 4.6
@@ -384,7 +384,7 @@
         "category": "Home Appliances",
         "product_title": "Dehumidifier",
         "description": "Compact dehumidifier with automatic shut-off",
-        "imageurl": "https://example.com/images/dehumidifier.jpg",
+        "imageurl": "assets/dehum.avif",
         "price": "$ 199",
         "quantity": 1, 
         "ratings": 4.5
@@ -394,7 +394,7 @@
         "category": "Fashion",
         "product_title": "Jeans",
         "description": "Comfortable and stylish denim jeans",
-        "imageurl": "https://example.com/images/jeans.jpg",
+        "imageurl": "assets/jeans.avif",
         "price": "$ 49",
         "quantity": 1, 
         "ratings": 4.3
@@ -404,7 +404,7 @@
         "category": "Fashion",
         "product_title": "T-Shirt",
         "description": "Cotton T-shirt with graphic print",
-        "imageurl": "https://example.com/images/tshirt.jpg",
+        "imageurl": "assets/tshirt.avif",
         "price": "$ 25",
         "quantity": 1, 
         "ratings": 4.4
@@ -414,7 +414,7 @@
         "category": "Beauty",
         "product_title": "Shampoo",
         "description": "Sulfate-free shampoo for all hair types",
-        "imageurl": "https://example.com/images/shampoo.jpg",
+        "imageurl": "assets/shampoo.avif",
         "price": "$ 15",
         "quantity": 1, 
         "ratings": 4.5
@@ -424,7 +424,7 @@
         "category": "Beauty",
         "product_title": "Conditioner",
         "description": "Moisturizing conditioner for dry hair",
-        "imageurl": "https://example.com/images/conditioner.jpg",
+        "imageurl": "assets/conditioner.avif",
         "price": "$ 15",
         "quantity": 1, 
         "ratings": 4.6
@@ -434,7 +434,7 @@
         "category": "Kitchen",
         "product_title": "Knife Set",
         "description": "Professional knife set with block",
-        "imageurl": "https://example.com/images/knife_set.jpg",
+        "imageurl": "assets/knife.avif",
         "price": "$ 79",
         "quantity": 1, 
         "ratings": 4.5
@@ -444,7 +444,7 @@
         "category": "Kitchen",
         "product_title": "Pressure Cooker",
         "description": "Stainless steel pressure cooker with safety features",
-        "imageurl": "https://example.com/images/pressure_cooker.jpg",
+        "imageurl": "assets/pressurecooker.jpg",
         "price": "$ 69",
         "quantity": 1, 
         "ratings": 4.4
@@ -474,7 +474,7 @@
         "category": "Electronics",
         "product_title": "Drone",
         "description": "Quadcopter drone with HD camera",
-        "imageurl": "https://example.com/images/drone.jpg",
+        "imageurl": "assets/drone.avif",
         "price": "$ 299",
         "quantity": 1, 
         "ratings": 4.6
@@ -484,7 +484,7 @@
         "category": "Electronics",
         "product_title": "VR Headset",
         "description": "Virtual reality headset with immersive experience",
-        "imageurl": "https://example.com/images/vr_headset.jpg",
+        "imageurl": "assets/vr.avif",
         "price": "$ 199",
         "quantity": 1, 
         "ratings": 4.5
@@ -494,12 +494,14 @@
         "category": "Home Appliances",
         "product_title": "Home Appliances",
         "description": "Refrigerator",
-        "imageurl": "freezer.avif",
+        "imageurl": "assets/freezer.avif",
         "price": "$ 49",
         "quantity": 1, 
         "ratings": 4.4
       }  
 ];
+
+
 
 
 
@@ -513,58 +515,117 @@ products.map((item) => {
 });
 
 // rendering product container with product cards.
-const productContainer = document.getElementById("productContainer");
-productContainer.innerHTML = products.map((product) => {
+document.addEventListener("DOMContentLoaded", () =>
+{
+    const productContainer = document.getElementById("productContainer");
+    // productContainer.innerHTML = '';
+    productContainer.innerHTML = products.map((product) => 
+        {
     
-    return `
-        <div class="product-card">
-          <img src="${product.imageurl}" alt="${product.product_title}">
-          <h3>Category: ${product.category}</h3>
-          <h2>${product.product_title}</h2>
-          <p>${product.description}</p>
-          <p>Price: ${product.price}</p>
-          <p>Ratings: ${product.ratings}</p>
-          <p>Quantity: ${product.quantity}</p>
-          <button class="btn" data-id="${product.Id}">Add to Cart</button>
-         </div>
-    
-    `
+            return `
+                <div class="product-card">
+                <img src="${product.imageurl}" alt="${product.product_title}">
+                <h3>Category: ${product.category}</h3>
+                <h2>${product.product_title}</h2>
+                <p>${product.description}</p>
+                <p>Price: ${product.price}</p>
+                <p>Ratings: ${product.ratings}</p>
+                <p>Quantity: ${product.quantity}</p>
+                <button class="btn" data-id="${product.Id}">Add to Cart</button>
+                </div>
+            
+            `;
 }).join('');
 
-let cartCount = 0; // initialising cart count to 0
-
-// Updating the cart notification/count
-function updateCartCount() {
-    document.getElementById('cart-notification').textContent = cartCount;
-};
 
 
+// Adding event listener to button after product rendering
 const buttons = document.querySelectorAll(".product-card button");
 
 buttons.forEach(button => {
     button.addEventListener('click', (event) => {
-
         const productid = event.target.dataset.id;
-        addToCart(productid);
+        addItem(productid);
     });
 });
 
-function addToCart(productid) {
-    const product = products.find(p => p.Id == productid);
-    let cart = JSON.parse(localStorage.getItem('cart')) || [];
-
-    const existingProduct = cart.find(p => p.id == productid);
-
-    if(existingProduct) {
-        existingProduct.quantity++;
-    } else{
-        cart.push({ ...product});
-
+const categoryList = document.getElementById('category-section');
+categoryList.addEventListener('click', (e) => 
+    { if (e.target.tagName === 'LI') {
+        const category = e.target.getAttribute('data-category');
+        renderProducts(category);
     }
-    localStorage.setItem("cart", JSON.stringify(cart));
-    alert("product added to the cart!!");
-// Navigates to new html page
-    window.location.href = 'cartPage.html';
+});
+
+renderProducts('All');
+});
+
+// let cartCount = document.getElementById("cart-count"); // initial cart count is 0
+
+// Categorising products based on product category.
+function renderProducts(category) {
+
+    const productContainer = document.getElementById("productContainer");
+    productContainer.innerHTML = ''; // hides the existing products
+    const filteredProducts = category === 'All' ? products : products.filter(product => product.category === category);
+    productContainer.innerHTML = filteredProducts.map(product => {
+        return `
+            <div class="product-card">
+                <img src= "${product.imageurl}" alt="${product.product_title}">
+                <h3>${product.product_title}</h3>
+                <p>${product.category}</p>
+                <p>Price: $${product.price}</p>
+                <p>Quantity: ${product.quantity}</p>
+                <button  data-id="${product.Id}" >Add to Cart</button>
+
+            </div>
+        
+        `;
+    
+    }).join('');
+
+
+    // add event listeners to the buttons
+    const buttons = document.querySelectorAll("button");
+    buttons.forEach(button => {
+        button.addEventListener('click', (event) => {
+            const productId = event.target.dataset.id;
+            addItem(productId); // calls the function to add item into the cart
+        });
+    });
+
 }
 
+
+// Updating the cart notification/count
+function updateCartCount() {
+    const cartCountElement = document.getElementById('cart-count');
+    if (cartCountElement){
+        cartCountElement.textContent = cart.length;
+    }
+}
+
+// adding items into the cart
+function addItem(productId) {
+    const product = products.find(p => p.Id == productId);
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+    const existingProduct = cart.find(p => p.Id == productId);
+
+    if(existingProduct) {
+        existingProduct.quantity = product.quantity + 1; //increase the quantity if item exists
+    } else{
+        cart.push({ ...product, quantity: 1}); // add new item if doesn't exist.
+    }
+    cartCount++;
+    updateCartCount();
+    alert("product added to the cart!!");
+
+    localStorage.setItem("cart", JSON.stringify(cart));
+    localStorage.setItem("cartCount", cartCount);
+
+// Navigates to new html page
+    window.location.href = 'cartPage.html';
+
+}
 
