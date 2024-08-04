@@ -87,6 +87,7 @@ h1{
 .cartItem{
     border: 2px solid black;
     width: 100%;
+    padding: 10px;
     align-content: center;
 }
 
@@ -146,4 +147,50 @@ h3{
 #cartTable th {
     background-color: #f2f2f2;
     text-align: center;
+}
+
+.image-box{
+    width: 40%;
+    height: 150px;
+}
+
+.remove-btn{
+    font-size:  xx-large;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+
+}
+
+#totalPrice{
+    font-size: 30px;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+
+
+}
+
+#apply-Discount{
+    padding: 10px;
+    margin-left: 30px;
+    font-size: 24px;
+    border: 1px solid black;
+    color: white;
+    background-color: blue;
+}
+
+.order-summary{
+    margin-top: 20px;
+}
+
+.order-summary h2 {
+    margin-bottom: 10px;
+}
+
+.order-summary div {
+    border: 1px solid #ddd;
+    padding: 10px;
 }

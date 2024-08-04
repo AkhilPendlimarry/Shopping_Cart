@@ -6,7 +6,7 @@
     <title>AddtoCart</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- <script src="./app.js" defer></script> -->
+   
 </head>
 <body>
 
@@ -16,7 +16,7 @@
            <ul>
                <li><a href="./index.html" class="home-link">Home</a></li>
                <li><i class="fa-solid fa-cart-shopping">
-                <span id="cart-notification">0</span>
+                <span id="cart-count">0</span>
                 </i></li>
            </ul>
        </div>
@@ -27,11 +27,22 @@
             
         <div class="cartItem">
             <h2 class="head">My Cart</h2>
-            <p>Your Cart is empty.</p>
+            <p>Your Cart information.</p>
+            <span id="totalPrice">Total : $ 0.00</span>
+           
             <div class="Sum">
-                <h3>Total</h3>
-                <h2 id="total">$ 0.00</h2>
+                <h3>Total Cost : </h3>
+                <h3>Discount Price: <span id="discounted-price">$ 0.00</span></h3>
+
+                <button id="apply-Discount">Apply 10% Discount</button>
             </div>
+            <div class="order-summary">
+                <h2>Order Summary</h2>
+                <div id="order-details">
+                    <!-- dynamic data -->
+                </div>
+            </div>
+
          </div>
        </div>   
     </div> 
@@ -39,6 +50,7 @@
     <table id="cartTable">
         <thead>
             <tr>
+                <th>Sr_no</th>
                 <th>ID</th>
                 <th>Image</th>
                 <th>Title</th>
@@ -46,6 +58,9 @@
                 <th>Quantity</th>
                 <th>Ratings</th>
                 <th>Price</th>
+                <th>Action-R</th>
+                <th>Total Price</th>
+
             </tr>
         </thead>
         <tbody>
@@ -54,11 +69,10 @@
     </table>
 
 
-    <!-- <div>
-        <span>Total: $<span id="total-price">0.00</span></span>
-        <button id="apply-discount">Apply 10% Discount</button>
-    </div> -->
+   
 
-    <script src="./script.js"></script>
+   
+    <script src="./script.js" defer></script>
+    <!-- defer is used to render HTML doc first and then script file. we can use async=false too -->
 </body>
 </html>
