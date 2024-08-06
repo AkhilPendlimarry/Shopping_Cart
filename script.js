@@ -14,7 +14,6 @@
                 const row = document.createElement('tr');
     
                 row.innerHTML = `
-                 
                      <td>${product.Id}</td>
                      <td><img class="image-box" src="${product.imageurl}" alt="${product.product_title}"></td>
                      <td>${product.product_title}</td>
@@ -75,7 +74,7 @@
             const totalDetails = document.createElement('div');
             totalDetails.innerHTML = `
               <p><strong>Total Price Before Discount:</strong> $${totalPrice.toFixed(2)}</p>
-              <p><strong>Discounted Price:</strong> $${discountedPrice.toFixed(2)}</p>
+              <p><strong>Price After Discount:</strong> $${discountedPrice.toFixed(2)}</p>
               <p><strong>Discount Applied:</strong> ${discountRate * 100}%</p>
              `;
              orderDetails.appendChild(totalDetails);
@@ -107,3 +106,4 @@
         renderCartItems();
      });
     
+     

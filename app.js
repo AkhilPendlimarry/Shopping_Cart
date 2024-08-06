@@ -584,7 +584,7 @@ document.addEventListener("DOMContentLoaded", () => {
         productContainer.innerHTML = filteredProducts.map(product => {
             return `
                 <div class="product-card">
-                    <p>${product.Sr_no}</p>
+                    
                     <img src="${product.imageurl}" alt="${product.product_title}">
                     <h3>${product.product_title}</h3>
                     <p>${product.category}</p>
