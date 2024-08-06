@@ -571,7 +571,8 @@ document.addEventListener("DOMContentLoaded", () => {
     function updateCartCount() {
         const cart = JSON.parse(localStorage.getItem("cart")) || []; // default to empty array instead of null if there's no data in cart storage.
         console.log(cart); // Debugging to check cart contents
-        cartCount.textContent = cart.reduce((count, product) => count + (product.quantity || 0), 0); // calculates and displays the cart count by iterating on each item.
+        cartCount.textContent = cart.length;
+        // cartCount.textContent = cart.reduce((count, product) => count + (product.quantity || 0), 0); // calculates and displays the cart count by iterating on each item.
     }
 
     // Function to render products based on category
@@ -584,7 +585,6 @@ document.addEventListener("DOMContentLoaded", () => {
         productContainer.innerHTML = filteredProducts.map(product => {
             return `
                 <div class="product-card">
-                    
                     <img src="${product.imageurl}" alt="${product.product_title}">
                     <h3>${product.product_title}</h3>
                     <p>${product.category}</p>

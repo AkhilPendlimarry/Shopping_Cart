@@ -3,8 +3,13 @@
         const cartTableBody = document.querySelector('#cartTable tbody');
         const totalPriceElement = document.getElementById('totalPrice');
         const discountedPriceElement = document.getElementById('discounted-price');
+        const cartCount = document.getElementById("cart-count");
         const discountRate = 0.10;
         let discountApplied = false;
+
+        function updateCartCount(){
+            cartCount.textContent = cart.length;
+        }
     
         // Function to render cart items
         function renderCartItems() {
@@ -28,7 +33,9 @@
                 cartTableBody.appendChild(row);
             });
     
-            calculateTotal();
+           // calculateTotal();
+           updatePrice();
+           updateCartCount();
         }
     
         // Function to calculate total price of the cart
@@ -45,15 +52,17 @@
         // function to update prices
         function updatePrice() {
             const totalPrice = calculateTotal(cart);
+           
+           // console.log(totalPrice);
             const discountedPrice = applyDiscount(totalPrice);
             
           //  console.log('Total price before discount:', totalPrice); // debug purpose
           //  console.log('Discounted price:', discountedPrice);
     
             totalPriceElement.textContent = `$${totalPrice.toFixed(2)}`;
-            discountedPriceElement.textContent = `$${discountedPrice.toFixed(2)}`;
-            generateOrderSummary(totalPrice, discountedPrice);
-        }
+            discountedPriceElement.textContent = discountApplied ? `$${discountedPrice.toFixed(2)}` : `$${totalPrice.toFixed(2)}`;
+            
+         }
         
         // function to generate order summary
         function generateOrderSummary(totalPrice, discountedPrice) {
@@ -100,7 +109,8 @@
         document.getElementById('apply-Discount').addEventListener('click', () => {
             discountApplied = true;
             updatePrice();
-        })
+            generateOrderSummary(calculateTotal(cart), applyDiscount(calculateTotal(cart)));
+        });
     
         // Initial render
         renderCartItems();
